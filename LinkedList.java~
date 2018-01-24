@@ -1,0 +1,19 @@
+public class LinkedList<Type> {
+    private Node<Type> head;
+    public LinkedList() {
+        head = new Node(data, head);
+    }
+
+    public void addtoFront(Type data) {
+        head = new Node<Type>(data, head);
+
+    }
+    public boolean isEmpty() {
+    }
+    public Node<Type> removeFromFront() {
+        if (isEmpty()) {
+
+        }
+    }
+
+}
